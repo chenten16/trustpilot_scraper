@@ -77,7 +77,7 @@ async def crawl(urls, reviews_number, website):
 
 
 def startScript():
-
+    # hi
     taget_website = input("Type the targeted website: ")
     reviews_number = int(input("How many reviews to scrape: "))
     taget_website=furl.furl(taget_website).remove(['page']).url
